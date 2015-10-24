@@ -25,9 +25,6 @@
            sync-j="8" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="android_build" remote="VM13" revision="vm13" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -555,6 +552,11 @@
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+<project path="manifest" name="VM13/platform_manifest" remote="VM13" revision="vm13" />  
+   <project path="build" name="android_build" remote="VM13" revision="vm13" >
+         <copyfile src="core/root.mk" dest="Makefile" />  
+  </project>
 
 <!--VM13 Configurations-->
 <project path="frameworks/base" name="android_frameworks_base" remote="VM13" revision="vm13" />
