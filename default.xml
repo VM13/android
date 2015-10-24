@@ -553,7 +553,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
-<project path="manifest" name="VM13/platform_manifest" remote="vm13" revision="vm13" />  
+<project path="manifest" name="platform_manifest" remote="vm13" revision="vm13" />  
    <project path="build" name="android_build" remote="vm13" revision="vm13" >
          <copyfile src="core/root.mk" dest="Makefile" />  
   </project>
@@ -579,7 +579,7 @@
 <!--VM13 Vendors-->
 <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="tm" revision="cm-13.0" />
 <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="tm" revision="cm-13.0" />
-<project path="vendor/htc" name="TheMuppets/proprietary_vendor_samsung" remote="tm" revision="cm-13.0" />
+<project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="tm" revision="cm-13.0" />
 <project path="vendor/lge" name="TheMuppets/proprietary_vendor_motorola" remote="tm" revision="cm-13.0" />
 <!--VM13 hardware-->
 <project name="android_hardware_samsung" path="hardware/samsung" remote="vm13" revision="vm13" />
