@@ -543,7 +543,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-<!-- END AOSP --
+<!-- END AOSP -->
 
 <project path="manifest" name="VM13/platform_manifest" remote="vm13" revision="vm13" />  
    <project path="build" name="VM13/android_build" remote="vm13" revision="vm13" >
