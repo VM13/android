@@ -552,6 +552,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+
 <project path="manifest" name="VM13/platform_manifest" remote="vm13" revision="vm13" />  
    <project path="build" name="VM13/android_build" remote="vm13" revision="vm13" >
          <copyfile src="core/root.mk" dest="Makefile" />  
