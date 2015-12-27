@@ -12,7 +12,7 @@ $ mkdir ~/dev/vm13
 $ cd ~/dev/vm13
 Init core trees without any device/kernel/vendor :
 
-$ repo init -u https://github.com/VM13/platform_manifest.git -b vm13
+$ repo init -u https://github.com/VM13/android.git -b vm13
 
 $ repo sync
 
